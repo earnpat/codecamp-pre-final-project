@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="final.css" />
+    <script src="final.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body id="bgcolor">
+    <br /><br />
+
+    <div class="paper">
+      <p id="th">THIS IS MY</p>
+      <h1 id="resume">RESUME</h1>
+      <div class="flex">
+        <div>
+          <div class="flex-img">
+            <img src="https://uppicimg.com/file/UwX7aeJ9.jpg" />
+          </div>
+
+          <div class="con">CONTACT ME</div>
+          <div class="me">
+            <p>
+              boonyanuch.patta@gmail.com<br />
+              +66 92 249 9197
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="fullname" id="fullname">BOONYANUCH PATTANAPAN</div>
+          <div class="nickname">
+            <p>" <span id="nickname">EARN</span> "</p>
+          </div>
+          <div class="edu">EDUCATION</div>
+          <div class="uni">
+            <ul>
+              <li>
+                Civil Aviation Training Center<br />
+                2015-2018<br />
+                : Aviation Engineering
+              </li>
+              <li>
+                Nawamintharachinuthid Horwang Nonthaburi School<br />
+                2009-2014<br />
+                : High School (Science-Math)<br />
+                : Lower Secondary School
+              </li>
+            </ul>
+          </div>
+          <div class="edu">SKILLS</div>
+          <div class="sk" id="skill"></div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="footer">
+      <h1 id="fill">- Change Infomation -</h1>
+      <div class="change flex2">
+        <div class="addinfo">
+          <p class="full">
+            fullname :
+            <input
+              type="text"
+              id="full"
+              onfocus="this.value=''"
+              value="BOONYANUCH PATTANAPAN"
+            />
+          </p>
+          <p class="nick">
+            nickname :
+            <input type="text" id="nick" onfocus="this.value=''" value="EARN" />
+          </p>
+          <button onclick="submit()">submit</button>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="addskill">
+          <p>
+            add skill : <input type="text" id="sk" onfocus="this.value=''" />
+          </p>
+          <button onclick="listskill(this.value)" value="add">add skill</button>
+          <button onclick="listskill(this.value)" value="remove">
+            remove recent skill
+          </button>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="bgc">
+          <p>choose background color</p>
+          <div class="grid">
+            <button
+              id="c1"
+              class="btn c1"
+              onclick="btn(this.value)"
+              value="c1"
+            ></button>
+            <button
+              id="c2"
+              class="btn c2"
+              onclick="btn(this.value)"
+              value="c2"
+            ></button>
+            <button
+              id="c3"
+              class="btn c3"
+              onclick="btn(this.value)"
+              value="c3"
+            ></button>
+            <button
+              id="c4"
+              class="btn c4"
+              onclick="btn(this.value)"
+              value="c4"
+            ></button>
+            <button
+              id="c5"
+              class="btn c5"
+              onclick="btn(this.value)"
+              value="c5"
+            ></button>
+            <button
+              id="c6"
+              class="btn c6"
+              onclick="btn(this.value)"
+              value="c6"
+            ></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+  </body>
+</html>
